@@ -10,6 +10,11 @@
             // VARIABILI //
             // --------- //
 
+            // include "funzioni.php";
+            // include_once "funzioni.php";
+            // require "funzioni.php";
+            // require_once "funzioni.php";
+
             $name= "Vittorio"; // string
             $age = 14; // int
             $balance = 79.35; // float 

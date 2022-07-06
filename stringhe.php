@@ -69,6 +69,29 @@
             echo $result[1];
             echo "<br>";
 
+            // ----------- //
+            // VALIDAZIONE //
+            // ----------- //
+            $email = "giovmaz2003@gmail.com";
+            if (filter_var($email, FILTER_VALIDATE_EMAIL))
+                echo "Questa email è valida";
+            else 
+                echo "Questa email non è valida";
+            echo "<br>";
+
+            $address = "192.168.1.69";
+            if (filter_var($email, FILTER_VALIDATE_IP))
+                echo "Questo indirizzo è valido";
+            else 
+                echo "Questo indirizzo nono è valido";
+            echo "<br>";
+
+            // -------------- //
+            // SANITIZZAZIONE //
+            // -------------- //
+            $email = "(giovmaz2003@gmail.com)";
+            $email = filter_var($email, FILTER_SANITIZE_EMAIL);
+            echo $email;
         ?>
     </body>
 </html>
