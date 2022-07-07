@@ -15,11 +15,6 @@
             $balance = 79.35; // float 
             $nomi = array("Mario", "Matteo", "Marco", "Giuda"); // array
             $nomi_e_eta = array("Mario" => 13, "Matteo" => 15, "Marco" => 18, "Giuda" => 69); // array associativo
-            
-            // concatenazione
-            echo $name . " " . $age . "<br>";
-            echo $name , " " , $age , "<br>";
-
 
             // if switch
             // for foreach while

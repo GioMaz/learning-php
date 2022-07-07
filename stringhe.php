@@ -20,6 +20,10 @@
             echo sprintf($format, $name, $age, $balance);
             printf($format, $name, $age, $balance);
 
+            // concatenazione
+            echo $name . " " . $age . "<br>";
+            echo $name , " " , $age , "<br>";
+
             echo strlen($name); // 8
             echo "<br>";
 
